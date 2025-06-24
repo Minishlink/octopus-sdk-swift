@@ -1,3 +1,5 @@
+require_relative 'SharedPodSpecConfig'
+
 Pod::Spec.new do |spec|
   spec.name         = 'OctopusCore'
   spec.summary      = 'Octopus core model objects. You should not use directly this pod. You should use Octopus and OctopusUI.'
@@ -6,10 +8,10 @@ Pod::Spec.new do |spec|
   spec.license      = SharedPodSpecConfig::LICENSE
   spec.author       = SharedPodSpecConfig::AUTHOR
   spec.source       = SharedPodSpecConfig::SOURCE
-  
+
   spec.ios.deployment_target = SharedPodSpecConfig::IOS_DEPLOYMENT_TARGET
   spec.swift_version = SharedPodSpecConfig::SWIFT_VERSION
-  
+
   spec.source_files = 'Sources/OctopusCore/**/*.swift'
 
   spec.resources = [
