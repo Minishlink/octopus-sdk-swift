@@ -4,6 +4,6 @@ module SharedPodSpecConfig
   SOURCE = { :git => "#{GITHUB_PAGE}.git", :tag => VERSION }
   LICENSE = { :file => 'LICENSE.md' }
   AUTHOR = { 'Djavan Bertrand' => 'djavan.bertrand@octopuscommunity.com' }
-  IOS_DEPLOYMENT_TARGET = '13.0'
+  IOS_DEPLOYMENT_TARGET = '14.0'
   SWIFT_VERSION = '5.9'
 end
